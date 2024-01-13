@@ -1,0 +1,14 @@
+/*Primera seccion*/
+
+/*Comienza segunda sección*/
+
+.segunda_seccion{
+    background-color: #f4f5f9;
+    min-height: 10rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 3rem;
+}
+
+/*Termina la segunda sección*/

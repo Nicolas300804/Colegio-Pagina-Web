@@ -1,0 +1,59 @@
+.cuarta_seccionAboutus{
+    background-image: radial-gradient(circle at 50% -20.71%, #ffa6aa 0, #ffac97 5%, #ffb485 10%, #ffbc73 15%, #ffc463 20%, #ffcd55 25%, #ffd548 30%, #ffdd3f 35%, #ffe539 40%, #ffec38 45%, #f2f23c 50%, #ddf845 55%, #c6fd52 60%, #aeff61 65%, #93ff72 70%, #72ff84 75%, #43ff97 80%, #00ffac 85%, #00ffc1 90%, #00ffd7 95%, #00ffed 100%);    background-attachment: fixed;
+    height: 70vh;
+    color: black;
+    display: flex;
+    flex-direction: column;
+}
+
+.contenedorcuarta_seccionAboutus{
+    width: 80%;
+    margin: auto;
+    display: flex;
+    flex-direction: row;
+}
+
+.mitad{
+    width: 50%;
+}
+
+.mitad>h3{
+    text-transform: capitalize;
+    font-family: 'avenir-lt-w01_85-heavy1475544, avenir-lt-w05_85-heavy', sans-serif;
+    font-size: 45px;
+    font-weight: 700;
+    margin-bottom: 1.5rem;
+}
+
+.mitad>p{
+    font-family: 'montserrat', sans-serif;
+    line-height: 26.4px;
+    font-size: 17px;
+    text-align: justify;
+}
+
+#cuarta_seccion_der_About_Us>h3{
+    text-transform: capitalize;
+    font-family: 'montserrat', sans-serif;
+    font-size: 500px;
+    font-weight: 700;
+    margin-bottom: 1.5rem;
+}
+
+#cuarta_seccion_der_About_Us>hr{
+    width: 4.5rem;
+    border-color: #44bd32;
+    margin-left: 0;
+    margin-bottom: 3rem;
+}
+
+#cuarta_seccion_der_About_Us>p{
+    margin-bottom: 4rem;
+}
+
+.image{
+    align-self: center;
+    padding-top: 5%;
+    width: 70%;
+    margin-right: -50px;
+}

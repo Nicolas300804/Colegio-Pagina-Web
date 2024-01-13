@@ -1,0 +1,52 @@
+.btn_verde{
+    text-decoration: none;
+    color: white;
+    font-size: 0.8rem;
+    font-family: 'montserrat', sans-serif;
+    text-transform: uppercase;
+    font-weight: 700;
+    background-color: #55efc4;
+    padding: 1rem 2rem;
+    display: inline-block;
+    border-radius: 6px;
+    align-self: center;
+}
+
+.cuarta_seccion{
+    background: linear-gradient(rgba(0,0,0,0.7),rgba(0,0,0,0.905)),url('../../images//Logo_colegio.PNG') no-repeat center/cover ;
+    background-attachment: fixed;
+    height: 100vh;
+    color: white;
+    display: flex;
+    flex-direction: column;
+}
+
+.contenedor{
+    width: 80%;
+    margin: auto;
+    display: flex;
+    flex-direction: row;
+}
+
+.mitad{
+    width: 50%;
+}
+
+#cuarta_seccion_der>h3{
+    text-transform: uppercase;
+    font-family: 'montserrat', sans-serif;
+    font-size: 2.5rem;
+    font-weight: 700;
+    margin-bottom: 1.5rem;
+}
+
+#cuarta_seccion_der>hr{
+    width: 4.5rem;
+    border-color: #44bd32;
+    margin-left: 0;
+    margin-bottom: 3rem;
+}
+
+#cuarta_seccion_der>p{
+    margin-bottom: 4rem;
+}

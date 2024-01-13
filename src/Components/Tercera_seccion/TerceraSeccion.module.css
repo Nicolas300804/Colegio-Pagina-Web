@@ -1,0 +1,75 @@
+:root {
+  --fuente:font-family: 'montserrat', sans-serif;;
+  }
+
+.btn_verde{
+    text-decoration: none;
+    color: white;
+    font-size: 0.8rem;
+    font-family: var(--fuente);
+    text-transform: uppercase;
+    font-weight: 700;
+    background-color: #55efc4;
+    padding: 1rem 2rem;
+    display: inline-block;
+    border-radius: 6px;
+    align-self: center;
+}
+
+.tercera_seccion{
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    width: 80%;
+    padding-top: 5rem;
+    padding-bottom:5rem;
+}
+
+.titulo{
+    margin-bottom: 2rem;
+}
+
+.titulo >h2{
+    text-transform: uppercase;
+    text-align: center;
+    font-family: 'montserrat', sans-serif;
+    font-size: 2.5rem;
+    font-weight: 700;
+}
+
+.titulo >hr{
+    width: 4.5rem;
+    border-color: #44bd32;
+}
+
+.container_tercera_seccion{
+    text-align: center;
+    display: flex;
+    flex-direction: row;
+}
+
+.img_tercera{
+    padding-right: 1rem;
+    padding-left: 1rem;
+}
+
+.img_tercera>h6{
+    text-align: center;
+    font-family: var(--fuente);
+    font-size: 1.3rem;
+    font-weight: 700;
+    margin-bottom: 1rem;
+}
+
+.img_tercera>p{
+    margin-bottom: 2rem;
+    text-align: justify;
+}
+
+.img_tercera>img{
+    max-width: 100%;
+
+}
+
+
+

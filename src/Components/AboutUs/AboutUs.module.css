@@ -1,0 +1,163 @@
+.primera_seccionAboutus{
+    background: linear-gradient(rgba(68,13,13,0.35),rgba(38,2,2,0.446)),url('../../images/inmaculado_corazon_maria.png') no-repeat center/cover ;
+    background-attachment: fixed;
+    height: 60vh;
+    color: white;
+}
+
+.segunda_seccionAboutus{
+    background-color: #f4f5f9;
+    min-height: 10rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 3rem;
+}
+
+.frase{
+    text-align: center;
+    padding-left: 40px;
+    padding-right: 40px;
+}
+
+.about_us_content{
+    text-align: center;
+    display: flex;
+    flex-direction: row;
+}
+
+.mision{
+    position: relative;
+    padding: 20px;
+    margin: 10px 0;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    margin-left: 20px;
+    width: 33.3%;
+    background-color: #243c6b;
+    color: white;
+    
+}
+
+.mision:hover{
+    background-color: #f5f5f5;
+    color: black;
+}
+
+.mision>p{
+    font-size: 24px;
+    text-align: justify;
+}
+
+.vision{
+    position: relative;
+    padding: 20px;
+    margin: 10px 0;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    
+    width: 33.3%;
+    background-color: #324158;
+    color: white;
+}
+
+.vision:hover{
+    background-color: #f5f5f5;
+    color: black;
+}
+
+.vision>p{
+    font-size: 24px;
+    text-align: justify;
+}
+
+.pedagogia{
+    position: relative;
+    padding: 20px;
+    margin: 10px 0;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    
+    margin-right: 20px;
+    width: 33.3%;
+    background-color: #243c6b;
+    color: white;
+}
+
+.pedagogia:hover{
+    background-color: #f5f5f5;
+    color: black;
+}
+
+.pedagogia>p{
+    font-size: 24px;
+    text-align: justify;
+}
+
+.tercera_seccionAboutus{
+    background-color: #8dad0c;
+    background-attachment: fixed;
+    height: 80vh;
+    color: white;
+    display: flex;
+    flex-direction: column;
+}
+
+.contenedorTercera_seccionAboutus{
+    width: 80%;
+    margin: auto;
+    display: flex;
+    flex-direction: row;
+}
+
+.mitad{
+    width: 50%;
+}
+
+.mitad>h3{
+    text-transform: capitalize;
+    font-family: 'avenir-lt-w01_85-heavy1475544, avenir-lt-w05_85-heavy', sans-serif;
+    font-size: 45px;
+    font-weight: 700;
+    margin-bottom: 1.5rem;
+}
+
+.mitad>p{
+    font-family: 'montserrat', sans-serif;
+    line-height: 26.4px;
+    font-size: 17px;
+    text-align: justify;
+}
+
+#cuarta_seccion_der_About_Us>h3{
+    text-transform: capitalize;
+    font-family: 'montserrat', sans-serif;
+    font-size: 500px;
+    font-weight: 700;
+    margin-bottom: 1.5rem;
+}
+
+#cuarta_seccion_der_About_Us>hr{
+    width: 4.5rem;
+    border-color: #44bd32;
+    margin-left: 0;
+    margin-bottom: 3rem;
+}
+
+#cuarta_seccion_der_About_Us>p{
+    margin-bottom: 4rem;
+}
+
+.image{
+    padding-top: 5%;
+    padding-bottom: 500px;
+    align-self: center;
+    width: 70%;
+    margin-left: -200px;
+}

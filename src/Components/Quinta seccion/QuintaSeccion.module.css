@@ -1,0 +1,62 @@
+.btn_verde{
+    text-decoration: none;
+    color: white;
+    font-size: 0.8rem;
+    font-family: 'montserrat', sans-serif;
+    text-transform: uppercase;
+    font-weight: 700;
+    background-color: #55efc4;
+    padding: 1rem 2rem;
+    display: inline-block;
+    border-radius: 6px;
+    align-self: center;
+}
+
+.quinta_seccion{
+    width: 80%;
+    margin: auto;
+    display: flex;
+    flex-direction: row;
+    align-items:center;
+    padding-top: 5rem;
+    padding-bottom: 5rem;
+}
+
+.quinta_seccion_izquierda{
+    flex: 1;
+}
+
+.quinta_seccion_izquierda>h3{
+    text-transform: uppercase;
+    font-family: 'montserrat', sans-serif;
+    font-size: 2.5rem;
+    font-weight: 700;
+    margin-bottom: 1.5rem;
+}
+
+.quinta_seccion_izquierda>p{
+    margin-bottom: 4rem;
+}
+
+.quinta_seccion_derecha{
+    flex: 2;
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    gap:15px 10px;
+    justify-items: center;
+    align-items: center;
+}
+
+.quinta_seccion_derecha>img{
+    max-width: 100%;
+    width: 200px;
+    height: 200px;
+}
+
+
+.quinta_seccion_derecha>hr{
+    width: 4.5rem;
+    border-color: #44bd32;
+    margin-left: 0;
+    margin-bottom: 3rem;
+}
