@@ -1,9 +1,10 @@
 import React from "react";
 import style from "./AboutUs.module.css";
 import { useState } from "react";
-import niños2 from "../../images/niños2.jpeg"
+//import niños2 from "../../images/niños2.jpeg"
 import AboutUsCuartaSeccion from "./AboutUsCuartaSeccion";
 import PrimeraSeccion from "../PrimeraSeccion/PrimeraSeccion";
+import Video_Institucioanl from "../../images/Video_Institucioanl.mp4"
 
 const AboutUs = () => {
   const [mostrarVision, setMostrarVision] = useState(false);
@@ -84,7 +85,11 @@ const AboutUs = () => {
       <div className={style.tercera_seccionAboutus}>
         <div className={style.contenedorTercera_seccionAboutus}>
             <div id="cuarta_seccion_izq_About_Us" className={style.mitad}>
-              <img src={niños2} alt="" className={style.image}/>
+              {/* <img src={niños2} alt="" className={style.image}/> */}
+              <video className={style.video} controls>
+            <source src={Video_Institucioanl} type="video/mp4" />
+            Tu navegador no admite el elemento de video.
+          </video>
             </div>
             <div id="cuarta_seccion_der_About_Us" className={style.mitad}>
                 <h3>Perfil de nuestros estudiantes </h3>
