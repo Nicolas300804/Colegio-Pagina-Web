@@ -1,12 +1,9 @@
-:root {
-  --fuente:font-family: 'montserrat', sans-serif;;
-  }
 
 .btn_verde{
     text-decoration: none;
     color: white;
     font-size: 0.8rem;
-    font-family: var(--fuente);
+    font-family: 'montserrat', sans-serif;;
     text-transform: uppercase;
     font-weight: 700;
     background-color: #55efc4;
@@ -55,7 +52,7 @@
 
 .img_tercera>h6{
     text-align: center;
-    font-family: var(--fuente);
+    font-family: 'montserrat', sans-serif;;
     font-size: 1.3rem;
     font-weight: 700;
     margin-bottom: 1rem;
