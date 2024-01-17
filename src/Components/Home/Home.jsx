@@ -20,7 +20,7 @@ const Home = () => {
 
       <div className={style.segunda_seccion}>
         <p className={style.frase}>
-          Un colegio con los mejores estandares en educación catolica
+          Un comunidad con los mejores estandares en educación catolica
         </p>
       </div>
 

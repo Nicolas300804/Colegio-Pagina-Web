@@ -7,7 +7,7 @@ const Footer = () => {
         <p>
             Bogotá - Colombia email: correo@gmail.com
         </p>
-        <p>Copyright 2023 <span Style="Color: #20bf6b;">Proyecto Educativo Pastorcitos del inmaculado Corazón</span></p>
+        <p>Copyright 2023 <span Style="Color: #20bf6b;">Proyecto Educativo San Juan Bosco</span></p>
     </footer>
   )
 }

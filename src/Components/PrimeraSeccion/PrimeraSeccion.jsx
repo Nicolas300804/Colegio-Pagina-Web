@@ -9,8 +9,8 @@ const PrimeraSeccion = () => {
         <div className={style.barra_navegacion}>
           <p className={style.logo}>
             Proyecto educativo{" "}
-            <span Style="Color: #20bf6b;">
-              Pastorcitos del inmaculado corazón
+            <span Style="Color: #fff8dc;">
+              San Juan Bosco
             </span>
           </p>
           <Nav />

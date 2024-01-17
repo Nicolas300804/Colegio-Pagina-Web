@@ -13,7 +13,7 @@
 }
 
 .cuarta_seccion{
-    background: linear-gradient(rgba(0,0,0,0.7),rgba(0,0,0,0.905)),url('../../images//Logo_colegio.PNG') no-repeat center/cover ;
+    background: linear-gradient(rgba(0,0,0,0.7),rgba(0,0,0,0.905)),url('../../images/proyecto_educativo.png') no-repeat center/cover ;
     background-attachment: fixed;
     height: 100vh;
     color: white;
