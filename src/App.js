@@ -6,6 +6,7 @@ import AboutUs from './Components/AboutUs/AboutUs';
 import Contact from './Components/Contact/Contact';
 import  Slideout  from './Components/Slideout/Slideout';
 import Books from './Components/Books/Books';
+//import Modals from './Components/Modals/Modals';
 
 function App() {
   return (
